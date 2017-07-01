@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It made finding the bug easier because the output of this function shows only the lines that have changed from one version to another.
+
+So, as the bug is supposedly introduced after the change, it has to belong to one of the changed lines.
+
+As a result, comparing documents allows to focus on lines that can contain the bug, 
+discarding the ones that cannot contain it because they have not been modified.  
+
+.......................................................................................................................
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+ 
+It makes possible keeping track of different evolutions of the same document in order to find out which is the best possible in the long run.
+
+.......................................................................................................................
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: Having the right amount of different versions.
+
+Cons: Inability to recover changes in case of failure or forgetting to save. 
+
+.......................................................................................................................
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+It depends on the intended purpose of each system. Some of them are more likely to deal with activities that usually need several related files.
+
+.......................................................................................................................
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows the list of commits with identification codes and comments.
+
+Git diff [original code] [modified code] lists the differences between the commits with such codes.
+
+.......................................................................................................................
+How might using version control make you more confident to make changes that could break something?
+
+It would make me more confident because changes can be reverted easily and the ability to compare different versions is very helpful in error correction.
+
+.......................................................................................................................
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use it to develop great projects as well as to have more resources to further my professional career.
