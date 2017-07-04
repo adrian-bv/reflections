@@ -7,3 +7,41 @@ A hidden directory, called git, is created, where metadata regarding version con
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area defines the files to be commited in the next commit, the working directory includes all files and the repository includes commited files. The use of staging area allows user to choose the files to commit.
+
+..........................................................................
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can introduce several changes simultaneously but you can add to staging area only the files corresponding to a logical change in order to commit them in several steps.
+
+..........................................................................
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+It would be helpful to experiment different things, until you decide the changes are worth or discard them, without affecting the main version and its continuous development.
+
+..........................................................................
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams make clear the different branches and the commits associated to each branch.
+
+..........................................................................
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches is combining two independent developments into one, what is a very interesting action if the merge is performed properly.
+
+..........................................................................
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging saves work to the user but it may generate errors or it may not arrive to a successful merge, in that case the user has to manually modify the files.
+
+
+
+
+
+
+
+ 
